@@ -1,5 +1,5 @@
 ---
-
+import Header from "./Header.astro";
 ---
 
 <html lang="en">
@@ -11,6 +11,9 @@
     <title>Torch Dev</title>
   </head>
   <body>
-    <h1>Torch DEV</h1>
+    <Header />
+    <main>
+      <slot />
+    </main>
   </body>
 </html>
