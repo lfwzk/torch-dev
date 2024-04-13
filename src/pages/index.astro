@@ -1,5 +1,6 @@
 ---
 import Header from "./Header.astro";
+import Cards from "./Cards.astro";
 ---
 
 <html lang="en">
@@ -12,8 +13,8 @@ import Header from "./Header.astro";
   </head>
   <body>
     <Header />
-    <main>
-      <slot />
+    <main class="mx-10 p-20 flex align-center gap-5 flex-wrap items-center">
+      <Cards />
     </main>
   </body>
 </html>
