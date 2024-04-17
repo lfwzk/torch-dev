@@ -2,6 +2,7 @@
 import Header from "./Header.astro";
 import Cards from "./Cards.astro";
 import Nosotros from "./Nosotros.astro";
+import Footer from "./Footer.astro";
 
 ---
 
@@ -15,10 +16,11 @@ import Nosotros from "./Nosotros.astro";
     <title>Torch Dev</title>
   </head>
   <body>
+    <main >
     <Header />
     <Nosotros />
-    <main class="mx-10 p-20 flex align-center gap-5 flex-wrap items-center">
-      <Cards />
+    <Cards />
+    <Footer />
     </main>
   </body>
 </html>
