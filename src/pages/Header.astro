@@ -1,40 +1,41 @@
-<div class="navbar bg-white text-primary-content w-full">
+<div class="border-red-600 border-b-4 navbar fixed top-0 w-full bg-white z-50">
   <div
     class="max-w-screen-2xl w-11/12 m-auto flex items-center justify-between"
   >
-    <img class="w-48" src="./public/logo.svg" alt="" />
+    <img class="w-32" src="./public/logo.svg" alt="" />
 
-    <div class="flex items-center">
+    <div class="flex items-center text-xs">
       <div class="items-center font-bold gap-6 text-black hidden md:flex">
         <span class="">
-          <a href="" class="font-bold p-2 rounded-xl bg-red-700 text-white"
-            >INICIO</a
+          <a
+            href="index.html#home"
+            class="font-bold p-2 rounded-xl bg-red-700 text-white">INICIO</a
           >
         </span>
         <span>
           <a
-            href=""
-            class="hover:p-2 rounded-xl hover:bg-red-700 hover:text-white"
+            href="index.html#nosotros"
+            class="hover:p-2 rounded-xl hover:bg-red-700 hover:text-white scroll-smooth"
             >NOSOTROS</a
           >
         </span>
         <span>
           <a
-            href=""
+            href="index.html#servicios"
             class="hover:p-2 rounded-xl hover:bg-red-700 hover:text-white"
             >SERVICIOS</a
           >
         </span>
         <span>
           <a
-            href=""
+            href="index.html#Proyectos"
             class="hover:p-2 rounded-xl hover:bg-red-700 hover:text-white"
             >PROYECTOS</a
           >
         </span>
         <span>
           <a
-            href=""
+            href="index.html#contactos"
             class="hover:p-2 rounded-xl hover:bg-red-700 hover:text-white"
             >CONTACTOS</a
           >
@@ -51,9 +52,13 @@
   </div>
 </div>
 
-<section class="hero" style="background-image: url(/public/imgheader.png);">
+<section
+  id="home"
+  class="hero"
+  style="background-image: url(/public/imgheader.png);"
+>
   <div class="hero-overlay bg-opacity-50"></div>
-  <div class="py-52">
+  <div class="py-44">
     <div
       class="hero-content flex justify-center text-center text-neutral-content"
     >
@@ -61,7 +66,9 @@
         <h1 class="font-bold text-5xl text-white my-6 border-y-4 p-4">
           Bienvenidos a Torch Dev
         </h1>
-        <p class="mb-5 text-white">Agencia de Diceño y desarollo web.</p>
+        <p class="text-base mb-5 text-white">
+          Agencia de Diceño y desarollo web.
+        </p>
         <button
           class="mx-3 btn bg-red-700 border-none text-white hover:bg-white hover:text-black hover:m-1 hover:border-red-700"
           >Get Started <i class="bx bx-chat"></i></button
@@ -74,24 +81,28 @@
     </div>
   </div>
 </section>
-<!-----
 
-   <div
-    class="hero-content flex justify-center text-center text-neutral-content"
-  >
-    <div class="max-w-md">
-      <h1 class="font-bold text-5xl text-white my-6 border-y-4 p-4">
-        Bienvenidos a Torch Dev
-      </h1>
-      <p class="mb-5 text-white">Agencia de Diceño y desarollo web.</p>
-      <button
-        class="mx-3 btn bg-red-700 border-none text-white hover:bg-white hover:text-black hover:m-1 hover:border-red-700"
-        >Get Started <i class="bx bx-chat"></i></button
-      >
-      <button
-        class="mx-3 btn bg-white border-none text-black hover:bg-red-700 hover:text-white hover:m-1 hover:border-red-700"
-        >Get Started
-      </button>
+<section id="empresas" class="py-10 w-full">
+  <div class="max-w-screen-2xl w-11/12 m-auto">
+    <h2 class="text-2xl text-center font-bold mb-6">
+      Empresas con las que trabajamos
+    </h2>
+    <div class="carousel flex justify-center items-center">
+      <div class="carousel-item w-40 h-40" style="">
+        <img src="./public/enpresa1.png" alt="Company 1" />
+      </div>
+      <div class="carousel-item w-40 h-40">
+        <img src="./public/enpresa2.png" alt="Company 2" />
+      </div>
+      <div class="carousel-item w-40 h-40">
+        <img src="./public/enpresa3.png" alt="Company 3" />
+      </div>
+      <div class="carousel-item w-40 h-40">
+        <img src="./public/enpresa4.png" alt="Company 4" />
+      </div>
+      <div class="carousel-item w-40 h-40">
+        <img src="./public/enpresa5.png" alt="Company 4" />
+      </div>
     </div>
   </div>
---- -->
+</section>
